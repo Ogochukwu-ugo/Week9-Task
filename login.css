@@ -138,3 +138,162 @@ h5 {
     border-bottom-width: 1px;
     width: fit-content;
 }
+
+@media only screen and (max-width: 769px) {
+    .div1 > .image-text {
+        position: absolute;
+        color: blue;
+        width: 100%;
+        top: 74%;
+        left: 0%;
+        text-align: center;
+    }
+    
+    .image-text p {
+        width: 80%;
+        margin-top: 10px;
+        line-height: 22px;
+        font-size: 15px;
+    }
+    
+    h2 {
+        font-family: Dancing Script;
+        font-size: 50px;
+        font-weight: 900;
+        color: rgb(69, 67, 67, 0.85);
+        margin-top: 18%;
+    }
+
+    .login {
+        margin: auto 35px;
+        margin-top: 70px;
+        width:90%;
+        font-family: Mulish;
+    }
+
+    #form-detail {
+        margin: auto 60px;
+        width: 80%;
+        margin-top: 40px;
+        font-family: Mulish;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    .div1 > .image-text {
+        position: absolute;
+        color: blue;
+        width: 100%;
+        top: 65%;
+        left: 0%;
+        text-align: center;
+    }
+    
+    .image-text p {
+        width: 90%;
+        margin-top: 10px;
+        line-height: 20px;
+        margin-left: 18px;
+        font-size: 14px;
+    }
+    
+    h2 {
+        font-family: Dancing Script;
+        font-size: 50px;
+        font-weight: 900;
+        color: rgb(69, 67, 67, 0.85);
+        margin-top: 18%;
+    }
+
+    .login {
+        margin: auto 16px;
+        margin-top: 70px;
+        width:90%;
+        font-family: Mulish;
+    }
+
+    #form-detail {
+        margin: auto 40px;
+        width: 85%;
+        margin-top: 40px;
+        margin-left: 20px;
+        font-family: Mulish;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .div1 > .image-text {
+        position: absolute;
+        color: blue;
+        width: 100%;
+        top: 60%;
+        left: 0%;
+        text-align: center;
+    }
+    
+    .image-text p {
+        width: 90%;
+        margin-top: 10px;
+        line-height: 20px;
+        margin-left: 15px;
+        font-size: 14px;
+    }
+    
+    h2 {
+        font-family: Dancing Script;
+        font-size: 50px;
+        font-weight: 900;
+        color: rgb(69, 67, 67, 0.85);
+        margin-top: 14%;
+    }
+
+    .login {
+        margin: auto 12px;
+        margin-top: 70px;
+        width:90%;
+        font-family: Mulish;
+    }
+
+    #form-detail {
+        margin: auto 35px;
+        width: 85%;
+        margin-top: 40px;
+        margin-left: 20px;
+        font-family: Mulish;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    .div1 > .image-text {
+        position: absolute;
+        color: blue;
+        width: 100%;
+        top: 59%;
+        left: 0%;
+        text-align: center;
+    }
+    
+    .image-text p {
+        width: 90%;
+        margin-top: 10px;
+        line-height: 20px;
+        margin-left: 13px;
+        font-size: 13px;
+    }
+    
+    .login {
+        margin: auto 12px;
+        margin-top: 70px;
+        width:90%;
+        font-family: Mulish;
+    }
+
+    #form-detail {
+        margin: auto 25px;
+        width: 85%;
+        margin-top: 40px;
+        margin-left: 18px;
+        font-family: Mulish;
+    }
+}
