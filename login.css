@@ -178,6 +178,46 @@ h5 {
         font-family: Mulish;
     }
 }
+@media only screen and (max-width: 576px) {
+    .div1 > .image-text {
+        position: absolute;
+        color: blue;
+        width: 100%;
+        top: 74%;
+        left: 0%;
+        text-align: center;
+    }
+    
+    .image-text p {
+        width: 80%;
+        margin-top: 10px;
+        margin-left: 50px;
+        line-height: 22px;
+        font-size: 15px;
+    }
+    
+    h2 {
+        font-family: Dancing Script;
+        font-size: 50px;
+        font-weight: 900;
+        color: rgb(69, 67, 67, 0.85);
+        margin-top: 18%;
+    }
+
+    .login {
+        margin: auto 20px;
+        margin-top: 70px;
+        width:90%;
+        font-family: Mulish;
+    }
+
+    #form-detail {
+        margin: auto 40px;
+        width: 80%;
+        margin-top: 40px;
+        font-family: Mulish;
+    }
+}
 
 @media only screen and (max-width: 428px) {
     .div1 > .image-text {
