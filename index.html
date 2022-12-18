@@ -28,12 +28,12 @@
                 <div class="login">
                     <h5 class="text-secondary fs-4">Welcome to Lovebirds</h5>
 
-                    <form class="text-start" id="form-detail" method="post" action="" onsubmit="return validateform()">
+                    <form method="get" action="/success.html" name="form-detail"  class="text-start"  id="form-detail">
                         <label for="username"  class="form-label text-secondary text-opacity-50">User's name or Email</label><br>
-                        <input type="text" class="form-control border border-top-0 border-start-0 border-end-0 border-secondary border-opacity-25 rounded-0 p-1 text-dark" id="username"  placeholder="User's name or Email" required ><br>
+                        <input type="text" name="username" class="form-control border border-top-0 border-start-0 border-end-0 border-secondary border-opacity-25 rounded-0 p-1 text-dark" id="username" autocomplete="username"  placeholder="User's name or Email"  ><br>
 
                         <label for="password" class="form-label text-secondary text-opacity-50">Password</label><br>
-                        <input type="password" class="form-control border border-top-0 border-start-0 border-end-0 border-secondary border-opacity-25 p-1 rounded-0 text-dark"  id="password" placeholder="*********" maxlength="12" required><br>
+                        <input type="password" name="password" class="form-control border border-top-0 border-start-0 border-end-0 border-secondary border-opacity-25 p-1 rounded-0 text-dark"  id="password" autocomplete="current-password" placeholder="*********" maxlength="12" ><br>
                         <div class="text-end ">
                             <a href="#" class="text-secondary text-opacity-75 text-decoration-none">Forgot password?</a>
                         </div>

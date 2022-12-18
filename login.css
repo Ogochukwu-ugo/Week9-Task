@@ -139,6 +139,24 @@ h5 {
     width: fit-content;
 }
 
+.success {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(250, 86, 215), rgb(246, 246, 73));
+}
+
+.success > h2 {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    color: whitesmoke;
+}
+
 @media only screen and (max-width: 769px) {
     .imageSection > .image-text {
         position: absolute;
