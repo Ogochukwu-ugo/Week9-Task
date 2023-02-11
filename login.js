@@ -9,7 +9,7 @@ form.addEventListener('submit', (e) => {
      }
      else {
         alert("Success");
-        window.location.href = '/success.html'
+        window.location.href = './success.html';
     }
 });
 
