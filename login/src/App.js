@@ -6,8 +6,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <div className="mainContainer justify-content-center">
+    <div className="App mx-auto">
+      <div className="mainContainer justify-content-center h-100">
         <div className=' imageContainer position-relative ms-1'>
           <img src={lovePics} alt="love-birds" className="lovePics"/>
           <div className="imageText">
