@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import lovePics from './assests/love birds1.jpeg';
-import Form from './form';
+import Form from './Form';
 import './App.css';
 
 function App() {
